@@ -371,10 +371,10 @@ function downloadCV() {
     alert('CV download functionality would be implemented here. You would typically link to a PDF file.');
     
     // In a real implementation, you might do something like:
-    // const link = document.createElement('a');
-    // link.href = 'path/to/your/cv.pdf';
-    // link.download = 'John_Developer_CV.pdf';
-    // link.click();
+     const link = document.createElement('a');
+     link.href = 'Resume.pdf'; // Path to your CV file
+    link.download = 'Dhivagar_CV.pdf';
+    link.click();
 }
 
 // Utility functions
