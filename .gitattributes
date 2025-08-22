@@ -1,0 +1,18 @@
+# Auto detect text files and ensure LF line endings
+* text=auto eol=lf
+
+# Treat all JS, HTML, CSS files as text and normalize to LF
+*.js  text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# PDFs, images, fonts, etc. should be kept as binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.svg  binary
+*.ttf  binary
+*.woff binary
+*.woff2 binary
