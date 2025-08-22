@@ -379,6 +379,7 @@ section {
     line-height: 1.8;
     text-align: justify;
     margin-bottom: 1rem;
+    text-indent: 5rem;
 }
 
 /* About Section */
@@ -519,11 +520,17 @@ section {
 }
 
 .info-meta {
-    display: flex;
+    /* display: flex; */
+    
     gap: 1rem;
     color: #888;
     font-size: 0.9rem;
 }
+ .sp{
+    display: block;
+    margin-bottom: 1rem;
+ }
+
 
 .cert-list {
     list-style: none;
