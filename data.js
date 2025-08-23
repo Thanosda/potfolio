@@ -3,7 +3,7 @@ const portfolioData = {
   personal: {
     name: "DHIVAGAR",
     tagline: "Python Developer | Web Developer ",
-    email: "rdhivagar2200@gmail.com.com",
+    email: "rdhivagar2200@gmail.com",
     phone: "+91 9347311766",
     location: "San Francisco, CA",
     linkedin: "https://linkedin.com/in/johndeveloper",
