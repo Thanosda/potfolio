@@ -102,31 +102,32 @@ const portfolioData = {
       id: 1,
       title: "Quality Checker Intern",
       company: "Lenovo",
-      location: "Remote",
-      duration: "Jun 2023 - Aug 2023",
+      location: "Pondicherry, India",
+      duration: "May 2024 ",
       type: "internship",
-      description: "Developed automated testing scripts for hardware validation processes. Improved testing efficiency by 40% through Python automation and implemented quality metrics dashboard.",
+      description: "Worked in the Quality Assurance team to inspect laptops and PCs by checking BIOS settings, outer appearance, packaging, and identifying manufacturing defects to ensure products meet company standards..",
       achievements: [
-        "Created automated test suites reducing manual testing time by 40%",
-        "Developed quality metrics dashboard using Python and Flask",
-        "Collaborated with international teams on product validation processes"
+        "BIOS & System Validation – Verified BIOS settings and system configurations",
+        "Defect Detection – Identified and reported hardware and manufacturing defects before delivery.",
+        "Process Compliance – Followed standard operating procedures (SOPs) for quality inspections."
       ],
-      technologies: ["Python", "Selenium", "Flask", "MySQL", "Git"]
+      technologies: ["Quality Assurance", "Hardware Testing", "Defect Detection", "BIOS Validation", "Packaging Standards"]
+
     },
     {
       id: 2,
-      title: "Full-Stack Developer",
-      company: "Freelance Projects",
-      location: "Remote",
-      duration: "Jan 2023 - Present",
+      title: "Front-end Developer",
+      company: "Zero Devolpers",
+      location: "Pondicherry, INDIA",
+      duration: "Jul 2024",
       type: "freelance",
-      description: "Developing web applications for small businesses using Python/Django backend and React frontend. Focus on responsive design and deployment automation.",
+      description: "Designed and developed responsive, user-friendly web interfaces using modern front-end technologies to ensure seamless user experience and cross-device compatibility.",
       achievements: [
-        "Delivered 5+ client projects with 100% satisfaction rate",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Built scalable applications handling 10k+ concurrent users"
+        "Developed interactive and responsive websites using HTML, CSS, and JavaScript.",
+        "Integrated APIs to display dynamic data on web pages.",
+        "Implemented modern UI frameworks like Bootstrap for clean and efficient design"
       ],
-      technologies: ["Python", "Django", "React", "PostgreSQL", "Docker", "AWS"]
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstarp", "SQL", "GitHub"]
     },
     {
       id: 3,
