@@ -531,6 +531,9 @@ section {
     margin-bottom: 1rem;
  }
 
+.sp p{
+    font-weight: 700;
+}
 
 .cert-list {
     list-style: none;

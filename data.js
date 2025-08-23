@@ -1,10 +1,10 @@
 // Portfolio Data
 const portfolioData = {
   personal: {
-    name: "John Developer",
-    tagline: "Python Developer | DevOps Enthusiast",
-    email: "john.developer@example.com",
-    phone: "+1 (555) 123-4567",
+    name: "DHIVAGAR",
+    tagline: "Python Developer | Web Developer ",
+    email: "rdhivagar2200@gmail.com.com",
+    phone: "+91 9347311766",
     location: "San Francisco, CA",
     linkedin: "https://linkedin.com/in/johndeveloper",
     github: "https://github.com/johndeveloper",
