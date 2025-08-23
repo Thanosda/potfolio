@@ -150,7 +150,7 @@ function initProjects() {
 function initSkills() {
     const programmingSkills = document.getElementById('programming-skills');
     const devopsSkills = document.getElementById('devops-skills');
-    const frameworkSkills = document.getElementById('framework-skills');
+   /*  const frameworkSkills = document.getElementById('framework-skills'); */
 
     // Render skills
     function renderSkills(container, skills, category) {
@@ -188,8 +188,8 @@ function initSkills() {
     // Render all skills
     renderSkills(programmingSkills, portfolioData.skills.programming, 'programming');
     renderSkills(devopsSkills, portfolioData.skills.tools, 'devops');
-    renderSkills(frameworkSkills, portfolioData.skills.frameworks, 'frameworks');
-
+   /*  renderSkills(frameworkSkills, portfolioData.skills.frameworks, 'frameworks');
+ */
     // Animate skill bars when skills section is in view
     const skillsSection = document.getElementById('skills');
     const observer = new IntersectionObserver((entries) => {

@@ -28,26 +28,26 @@ const portfolioData = {
   
   skills: {
     programming: [
-      { name: "Python", level: 90, category: "primary" },
-      { name: "JavaScript", level: 80, category: "primary" },
-      { name: "HTML/CSS", level: 85, category: "primary" },
-      { name: "SQL", level: 75, category: "secondary" },
-      { name: "Bash/Shell", level: 70, category: "secondary" }
+      { name: "Python", level: 80, category: "primary" },
+      { name: "JavaScript", level: 70, category: "primary" },
+      { name: "HTML/CSS", level: 90, category: "primary" },
+      { name: "SQL", level: 65, category: "secondary" },
+     /*  { name: "Bash/Shell", level: 70, category: "secondary" } */
     ],
     tools: [
-      { name: "Git", level: 85, category: "primary" },
-      { name: "Docker", level: 80, category: "primary" },
-      { name: "AWS", level: 75, category: "primary" },
-      { name: "Linux", level: 80, category: "primary" },
-      { name: "Jenkins", level: 65, category: "secondary" },
-      { name: "Kubernetes", level: 60, category: "secondary" }
+      { name: "Github", level: 90, category: "primary" },
+      { name: "Bootstarp", level: 80, category: "primary" },
+      { name: "node.js", level: 65, category: "primary" },
+      { name: "React.js", level: 70, category: "primary" },
+      { name: "Django", level: 60, category: "secondary" },
+/*       { name: "Kubernetes", level: 60, category: "secondary" } */
     ],
-    frameworks: [
+    /* frameworks: [
       { name: "Django", level: 85, category: "primary" },
       { name: "FastAPI", level: 80, category: "primary" },
       { name: "React", level: 75, category: "secondary" },
       { name: "Flask", level: 70, category: "secondary" }
-    ]
+    ] */
   },
   
   projects: [
@@ -120,7 +120,7 @@ const portfolioData = {
       company: "Zero Devolpers",
       location: "Pondicherry, INDIA",
       duration: "Jul 2024",
-      type: "freelance",
+      type: "Internship",
       description: "Designed and developed responsive, user-friendly web interfaces using modern front-end technologies to ensure seamless user experience and cross-device compatibility.",
       achievements: [
         "Developed interactive and responsive websites using HTML, CSS, and JavaScript.",
@@ -131,22 +131,22 @@ const portfolioData = {
     },
     {
       id: 3,
-      title: "DevOps Learning Journey",
-      company: "Self-Directed Learning",
-      location: "Online",
-      duration: "Sep 2023 - Present",
-      type: "learning",
-      description: "Intensive self-study program focusing on DevOps practices, cloud technologies, and infrastructure automation. Completed multiple hands-on projects.",
+      title: " Full Stack Developer",
+      company: "Novi Tech Research And Development",
+      location: "Remote",
+      duration: "Aug 2024",
+      type: "Internship",
+      description: "Built and maintained complete web applications by working on both front-end interfaces and back-end logic, ensuring smooth functionality, scalability, and user experience.",
       achievements: [
-        "Obtained AWS Cloud Practitioner certification",
-        "Built and deployed 10+ containerized applications",
-        "Mastered Infrastructure as Code using Terraform"
+        "Developed backend services with Node.js / Python .",
+        "Integrated databases for storing and managing data.",
+        "Used Git/GitHub for version control and collaboration."
       ],
-      technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "Ansible"]
+      technologies: ["HTML", "CSS", "JavaScript",  "MongoDB", "GitHub", "Node.js", "Python","Bootstarp"]
     }
   ],
   
-  testimonials: [
+ /*  testimonials: [
     {
       id: 1,
       name: "Sarah Chen",
@@ -163,5 +163,5 @@ const portfolioData = {
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
       rating: 5
     }
-  ]
+  ] */
 };
