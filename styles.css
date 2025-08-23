@@ -75,7 +75,7 @@ body {
 }
 
 .navbar.scrolled .brand-text {
-    color: #333;
+    color: #87111193;
 }
 
 .nav-menu {
@@ -93,6 +93,11 @@ body {
     position: relative;
 }
 
+@media only screen and (max-width: 480px) {
+.nav-link {
+    color: gray;
+}
+}
 .navbar.scrolled .nav-link {
     color: #666;
 }
