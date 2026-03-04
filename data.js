@@ -8,23 +8,10 @@ const portfolioData = {
     location: "San Francisco, CA",
     linkedin: "https://linkedin.com/in/johndeveloper",
     github: "https://github.com/johndeveloper",
-    profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+    
   },
   
-  about: {
-    summary: "B.E. Computer Science Engineering graduate with 2+ years of experience in Python development and growing expertise in DevOps practices. Passionate about building scalable applications and implementing efficient deployment pipelines. Currently transitioning from full-stack development to DevOps engineering.",
-    education: {
-      degree: "Bachelor of Engineering - Computer Science",
-      university: "Tech University",
-      year: "2022",
-      gpa: "3.8/4.0"
-    },
-    certifications: [
-      "AWS Cloud Practitioner",
-      "Docker Fundamentals",
-      "Python Developer Certification"
-    ]
-  },
+ 
   
   skills: {
     programming: [
@@ -32,7 +19,7 @@ const portfolioData = {
       { name: "JavaScript", level: 70, category: "primary" },
       { name: "HTML/CSS", level: 90, category: "primary" },
       { name: "SQL", level: 65, category: "secondary" },
-     /*  { name: "Bash/Shell", level: 70, category: "secondary" } */
+    
     ],
     tools: [
       { name: "Github", level: 90, category: "primary" },
@@ -40,14 +27,9 @@ const portfolioData = {
       { name: "node.js", level: 65, category: "primary" },
       { name: "React.js", level: 70, category: "primary" },
       { name: "Django", level: 60, category: "secondary" },
-/*       { name: "Kubernetes", level: 60, category: "secondary" } */
+
     ],
-    /* frameworks: [
-      { name: "Django", level: 85, category: "primary" },
-      { name: "FastAPI", level: 80, category: "primary" },
-      { name: "React", level: 75, category: "secondary" },
-      { name: "Flask", level: 70, category: "secondary" }
-    ] */
+   
   },
   
   projects: [
@@ -141,22 +123,5 @@ const portfolioData = {
     }
   ],
   
- /*  testimonials: [
-    {
-      id: 1,
-      name: "Sarah Chen",
-      role: "Senior DevOps Engineer at TechCorp",
-      content: "John's dedication to learning DevOps practices is impressive. His Python background gives him a unique perspective on automation and infrastructure management.",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612c8fe?w=100&h=100&fit=crop&crop=face",
-      rating: 5
-    },
-    {
-      id: 2,
-      name: "Mike Rodriguez",
-      role: "Team Lead at Lenovo",
-      content: "During John's internship, he demonstrated exceptional problem-solving skills and delivered automation solutions that significantly improved our testing processes.",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
-      rating: 5
-    }
-  ] */
+ 
 };
