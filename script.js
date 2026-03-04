@@ -286,7 +286,7 @@ function initContactForm() {
     const btnText = submitBtn.querySelector('.btn-text');
     const btnLoader = submitBtn.querySelector('.btn-loader');
 
-    contactForm.addEventListener('submit', async (e) => {
+    contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
 
         // Show loading state
@@ -294,22 +294,35 @@ function initContactForm() {
         btnLoader.style.display = 'flex';
         submitBtn.disabled = true;
 
-        // Simulate form submission
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        emailjs.sendForm(
+            "service_vo51ay3", 
+            "template_zc68lfo", 
+            contactForm
+        )
+        .then(function() {
 
-        // Show success message
-        formSuccess.style.display = 'flex';
-        contactForm.reset();
+            formSuccess.style.display = 'flex';
+            contactForm.reset();
 
-        // Reset button state
-        btnText.style.display = 'inline';
-        btnLoader.style.display = 'none';
-        submitBtn.disabled = false;
+            btnText.style.display = 'inline';
+            btnLoader.style.display = 'none';
+            submitBtn.disabled = false;
 
-        // Hide success message after 5 seconds
-        setTimeout(() => {
-            formSuccess.style.display = 'none';
-        }, 5000);
+            setTimeout(() => {
+                formSuccess.style.display = 'none';
+            }, 5000);
+
+        })
+        .catch(function(error) {
+
+            alert("Message failed to send");
+
+            btnText.style.display = 'inline';
+            btnLoader.style.display = 'none';
+            submitBtn.disabled = false;
+
+            console.error(error);
+        });
     });
 }
 
