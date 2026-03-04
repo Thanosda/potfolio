@@ -53,24 +53,22 @@ const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "E-Commerce API Platform",
-      description: "A scalable REST API built with FastAPI and PostgreSQL, featuring user authentication, payment integration, and comprehensive testing. Deployed using Docker containers on AWS ECS.",
-      techStack: ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS ECS", "Redis"],
-      githubUrl: "https://github.com/johndeveloper/ecommerce-api",
-      liveUrl: "https://ecommerce-api-demo.com",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      featured: true,
-      status: "completed"
+      title: "Office Attendance Management ",
+      description: "An AI-powered office attendance system using graph algorithms to ensure accurate tracking, streamlined management, and efficient monitoring of employee presence and productivity",
+      techStack: ["HTML", "CSS", "PostgreSQL", "JavaScript"],
+      githubUrl: "https://github.com/Thanosda/Office-Attendence.git",
+      liveUrl: "https://office-attendence.netlify.app/",
+      image: "/img/office.png",
+     status: "completed"
     },
     {
       id: 2,
-      title: "DevOps CI/CD Pipeline",
-      description: "Automated deployment pipeline using Jenkins, Docker, and AWS. Includes automated testing, security scanning, and blue-green deployments for zero-downtime releases.",
-      techStack: ["Jenkins", "Docker", "AWS", "Terraform", "Python", "Bash"],
-      githubUrl: "https://github.com/johndeveloper/cicd-pipeline",
-      liveUrl: null,
-      image: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=600&h=400&fit=crop",
-      featured: true,
+      title: "Live Weather Forecasting Application",
+      description: "A real-time weather forecasting application that leverages APIs and AI models to deliver accurate predictions, instant updates, and user-friendly insights for daily planning and decision-making.",
+      techStack: ["HTML", "CSS", "JavaScript"],
+      githubUrl: "https://github.com/Thanosda/Weather-App.git",
+      liveUrl: "https://chill-now.netlify.app/",
+      image: "/img/weather.jfif",
       status: "completed"
     },
     {
