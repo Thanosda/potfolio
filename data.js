@@ -5,9 +5,9 @@ const portfolioData = {
     tagline: "Python Developer | Web Developer ",
     email: "rdhivagar2200@gmail.com",
     phone: "+91 9347311766",
-    location: "San Francisco, CA",
-    linkedin: "https://linkedin.com/in/johndeveloper",
-    github: "https://github.com/johndeveloper",
+    location: "PONDICHERRY, INDIA",
+    linkedin: "https://www.linkedin.com/in/dhivagar-r-01a015294/",
+    github: "https://github.com/thanosda",
     
   },
   
