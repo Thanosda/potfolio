@@ -196,28 +196,35 @@ Showcasing my journey as a Web & Python Developer, growing into DevOps.
 
 👉 Do you want me to also draft sample project entries (like “Online Bookstore”, “Expense Tracker”) for your Projects section so you can paste them directly into data.js?
 
-You said:
-give me in redme for git
-ChatGPT said:
-
-Got it 👍 You want a "Get in Touch" section written nicely for your GitHub README.md file.
-Here’s a ready-to-use version (Markdown format):
 
 ## 📬 Get in Touch  
 
 I’m always open to connecting, collaborating, or just having a tech chat!  
 If you’d like to work together, discuss ideas, or share opportunities, feel free to reach out.  
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)  
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)  
+- 📧 Email: rdhivagar2200@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/dhivagar22/ 
+- 🌐 Portfolio: https://dhivagar-portfolioo.netlify.app/  
 
 Looking forward to connecting with you! 🚀
 
 
-👉 You can remove Twitter/LinkedIn if you don’t use them and just keep Email + Portfolio.
+ 📸 Screenshots:
 
-Do you want me to also make this shorter and more formal, like just 2 lines, or keep it detailed and friendly?
 
-ChatGPT can make mistakes. Check imp
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b4a6ffd8-c0c9-4961-a35e-3db01b054086" />
+
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d1e2ae3-b2b1-452b-9c58-7c4a87d73544" />
+
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c6037054-7a22-4abd-bdbd-76d43b7abbf9" />
+
+<img width="1920" height="1080" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/06deb295-d45b-41df-b6f0-20f3795eff4c" />
+
+<img width="1920" height="1080" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/1a506484-7247-4b62-ac97-1aefab4d2ae6" />
+
+<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/5a935258-a576-4098-97e2-40bc533fd10a" />
+
+<img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/7aac6d8e-f670-4ff9-a6a2-0adb7ef2a0f1" />
+
+<img width="1920" height="1080" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/e2704c28-fd63-44f7-a01e-f31e46bbde61" />
+
