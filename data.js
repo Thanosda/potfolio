@@ -39,7 +39,7 @@ const portfolioData = {
       description: "An AI-powered office attendance system using graph algorithms to ensure accurate tracking, streamlined management, and efficient monitoring of employee presence and productivity",
       techStack: ["HTML", "CSS", "PostgreSQL", "JavaScript"],
       githubUrl: "https://github.com/Thanosda/Office-Attendence.git",
-      liveUrl: "https://grocer-snap.netlify.app",
+      liveUrl: "https://attendence-pro.netlify.app",
       image: "/img/office.png",
      status: "completed"
     },
