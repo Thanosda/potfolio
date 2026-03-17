@@ -39,7 +39,7 @@ const portfolioData = {
       description: "An AI-powered office attendance system using graph algorithms to ensure accurate tracking, streamlined management, and efficient monitoring of employee presence and productivity",
       techStack: ["HTML", "CSS", "PostgreSQL", "JavaScript"],
       githubUrl: "https://github.com/Thanosda/Office-Attendence.git",
-      liveUrl: "https://office-attendence.netlify.app/",
+      liveUrl: "https://office-attendence.netlify.app",
       image: "/img/office.png",
      status: "completed"
     },
@@ -49,7 +49,7 @@ const portfolioData = {
       description: "A real-time weather forecasting application that leverages APIs and AI models to deliver accurate predictions, instant updates, and user-friendly insights for daily planning and decision-making.",
       techStack: ["HTML", "CSS", "JavaScript"],
       githubUrl: "https://github.com/Thanosda/Weather-App.git",
-      liveUrl: "https://chill-now.netlify.app/",
+      liveUrl: "https://wheather-checker.netlify.app",
       image: "/img/weather.jfif",
       status: "completed"
     },
